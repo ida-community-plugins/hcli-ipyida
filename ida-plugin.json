@@ -1,0 +1,15 @@
+{
+  "$schema": "https://raw.githubusercontent.com/HexRaysSA/ida-hcli/refs/heads/v0.9.0/docs/reference/ida-plugin.schema.json",
+  "IDAMetadataDescriptorVersion": 1,
+  "plugin": {
+    "name": "IPyIDA",
+    "entryPoint": "ipyida_plugin_stub.py",
+    "version": "2.2",
+    "idaVersions": ">=6.6",
+    "description": "IPyIDA is a python-only solution to add an IPython console to IDA Pro. Use <Shift-.> to open a window with an embedded Qt console. You can then benefit from IPython's autocompletion, online help, monospaced font input field, graphs, and so on.",
+    "categories": [
+      "ui-ux-and-visualization"
+    ],
+    "pythonDependencies": ["ipyida==2.2"]
+  }
+}
